@@ -31,8 +31,8 @@ laptop_performance_dashboard/
 
 ## Run on Windows
 1. Open Command Prompt/PowerShell in this folder.
-2. Create a virtual environment (recommended): `python -m venv .venv`
-3. Activate it: `.venv\\Scripts\\activate`
+2. Create a virtual environment (recommended): `python -m env .venv`
+3. Activate it: `.env\\Scripts\\activate`
 4. Install packages: `pip install -r requirements.txt`
 5. Start: `streamlit run app.py`
 
